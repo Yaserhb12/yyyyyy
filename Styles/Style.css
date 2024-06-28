@@ -1,0 +1,141 @@
+@media (max-width: 500px) 
+{}
+   
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    height: 65px;
+    background-color:plum;
+    color: purple;
+    text-align: center;
+    padding: 10px 0;
+}
+h1 {
+    text-align: center;
+}
+
+
+ 
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-image: url(/pictures/Background.avif);
+    background-size:contain;
+}
+
+
+
+.Search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+form{
+    width: 350px;
+    height: 40px;
+    display: flex;
+}
+form input{
+    flex: 1;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+form button{
+    background: #0056b3;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+
+}
+
+
+
+.buttons {
+    display: flex;
+    margin-left: auto;
+}
+
+.buttons button {
+    height: 40px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.buttons button:hover {
+    background-color: #0056b3;
+}
+
+.button1 {
+    margin-right: 30px;
+
+}
+.button2{
+    margin-left: auto;
+}
+
+
+
+.contacts {
+    list-style: none;
+    height: 380px;
+    padding: 0;
+    margin: 0;
+    max-width: 600px;
+    width: 100%;
+}
+
+.contact-list{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.contact-name {
+    width: 50%;
+    text-align: center;
+}
+.contact-number{
+    width: 50%;
+    text-align: center;
+}
+.img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+    
+
+
+footer{
+    height: 40px;
+    background-color:plum;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+
+}

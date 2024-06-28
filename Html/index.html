@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>רשימת אנשי קשר</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/Style.css'>
+    <script src='/Style.css'></script>
+</head>
+<body>
+    <header>
+        <h1>Java Script Project</h1>
+    </header>
+    
+    <main> 
+        <div class="Search">
+            <form>
+                <input type="text" placeholder="חיפוש באנשי קשר">
+                <button type="submit">חפש</button>
+            </form>
+        </div>
+
+        <div class="buttons">
+        <div class="button1">
+            <button onclick="addContact()">הוסף איש קשר חדש </button>
+            
+        </div>
+        <div class="button2">
+            <button onclick="deleteContacts()">מחק הכל</button>
+        </div>
+    </div>
+        
+        <h2>רשימת אנשי קשר</h2>
+        <ul class="contacts">
+            <li class="contact-list">
+                <img src="/pictures/icon.jpg" alt="icon" class="img">
+
+                <span class="contact-name">יאסר הבראת</span>
+                <span class="contact-number">050-3443181</span>
+            </li>
+            <li class="contact-list">
+                <img src="/pictures/icon.jpg" alt="icon" class="img">
+                <span class="contact-name">גנא חלאילה</span>
+                <span class="contact-number">050-8531114</span>
+            </li>
+            <li class="contact-list">
+                <img src="/pictures/icon.jpg" alt="icon" class="img">
+                <span class="contact-name">אלסו בוגדנוב</span>
+                <span class="contact-number">050-1234567</span>
+            </li>
+        </ul>
+    </main>
+    
+    <footer>
+        <p>All rights reserved 2024 &copy;  | made by <b>Yaser & Jana</b> </p>
+    </footer>
+</body>
+</html>
